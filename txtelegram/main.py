@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import sqlite3
 import time
-TOKEN = '6819953146:AAHtvF9UeMT6qP45H-FmA8XnHDEGTTwurAg'
+TOKEN = 'YOUR TOKEN'
 bot = telebot.TeleBot(TOKEN)
 def menu(message):
     items = ['👤 Tài khoản','🎮 Game']
